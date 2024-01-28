@@ -113,12 +113,16 @@ for (let i = 0; i < cars.length; i++) {
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
-let num = 25;
-while (numericArray === num) {
-  c;
-  counter++;
-}
+const numeroPrescelto = [];
+const counter = 0;
+for (i = 0; i < numericArray.length; i++) {
+  while (numericArray[i] === 32) {
+    numeroPrescelto.push(numericArray[i]);
 
+    break;
+  }
+}
+console.log("esercizio numero 9  " + numeroPrescelto);
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
@@ -126,4 +130,73 @@ while (numericArray === num) {
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
 const alfabetoNum = [];
-for (i = 0; i < charactersArray.length; i++) {}
+
+for (i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
+    case "a":
+      alfabetoNum.push("1");
+      break;
+    case "b":
+      alfabetoNum.push("2");
+      break;
+    case "c":
+      alfabetoNum.push("3");
+      break;
+    case "d":
+      alfabetoNum.push("4");
+      break;
+    case "e":
+      alfabetoNum.push("5");
+      break;
+    case "f":
+      alfabetoNum.push("6");
+      break;
+    case "g":
+      alfabetoNum.push("7");
+      break;
+    case "h":
+      alfabetoNum.push("8");
+      break;
+    case "i":
+      alfabetoNum.push("9");
+      break;
+    case "l":
+      alfabetoNum.push("10");
+      break;
+    case "m":
+      alfabetoNum.push("11");
+      break;
+    case "n":
+      alfabetoNum.push("12");
+      break;
+    case "o":
+      alfabetoNum.push("13");
+      break;
+    case "p":
+      alfabetoNum.push("14");
+      break;
+    case "q":
+      alfabetoNum.push("15");
+      break;
+    case "r":
+      alfabetoNum.push("15");
+      break;
+    case "s":
+      alfabetoNum.push("17");
+      break;
+    case "t":
+      alfabetoNum.push("18");
+      break;
+    case "u":
+      alfabetoNum.push("19");
+      break;
+    case "v":
+      alfabetoNum.push("20");
+      break;
+    case "z":
+      alfabetoNum.push("21");
+      break;
+  }
+}
+
+console.log("esercizio numero 10:" + " " + alfabetoNum);
