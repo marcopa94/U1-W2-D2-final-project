@@ -11,17 +11,15 @@ REGOLE
     Dato il seguente array, scrivi del codice per stampare ogni elemento dell'array in console.
 */
 const pets = ["dog", "cat", "hamster", "redfish"];
-for (let i = 0; i < pets.length; i++) {
-  const nome = pets[i];
-  console.log(nome);
-}
+
+console.log("esercizio num1:" + " " + pets);
 
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
 
 pets.sort();
-console.log("es.1 ordinamento in ordine alfabetico", pets);
+console.log("es.2 ordinamento in ordine alfabetico", pets);
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
@@ -103,26 +101,28 @@ console.log("esercizio n 7", jusTrims);
 for (let i = 0; i < cars.length; i++) {
   const carObj = cars[i];
   if (carObj.color.charAt(0) === "b") {
-    console.log("esercizio 8 ci sono:" + "Frizz");
+    console.log("esercizio 8 ci sono:" + " " + "Frizz");
   } else {
-    console.log("esercizio 8 ci sono:" + "buzz");
+    console.log("esercizio 8 ci sono:" + " " + "buzz");
   }
 }
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
-const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
+
+/*const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
 const numeroPrescelto = [];
 const counter = 0;
 for (i = 0; i < numericArray.length; i++) {
-  while (numericArray[i] === 32) {
+  while (numericArray[i] == 32) {
     numeroPrescelto.push(numericArray[i]);
 
     break;
   }
 }
-console.log("esercizio numero 9  " + numeroPrescelto);
+console.log("esercizio numero 9  " + numeroPrescelto); */
+
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
